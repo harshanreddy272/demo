@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+</head>
+
+<body>
+  <center>  <h2>
+        Enter Your Details 
+    </h2></center>
+   <center>  <form action="./submit.html" method="post">
+    <table border="2" cellspacing="0" cellpadding="7" >
+     <tr> <td><label for="fullname">Full Name:</label>
+    <input type="text" id="fullname" name="fullname" placeholder="Your full name" required><br>
+    </td></tr>
+
+    <tr><td>
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" placeholder="you@gmail.com" required><br></td>
+    </tr>
+
+    <tr><td>
+       <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" placeholder="+1234567890" required><br>
+    </td></tr>
+    
+<tr><td>
+ 
+    <label for="date">Preferred Date:</label>
+    <input type="date" id="date" name="appointment_date" required><br>
+
+</td></tr>
+   
+    <tr> <td>
+    <label for="service">Select a Service:</label>
+    <select id="service" name="service" required>
+        <option value="">--Please choose--</option>
+        <option value="consultation">Ayurvedic Consultation</option>
+        <option value="yoga">Yoga Session</option>
+        <option value="nutrition">Nutrition Plan</option>
+        <option value="therapy">Holistic Therapy</option><br>
+    </select>
+    
+    </td></tr>
+    
+
+    <tr>
+    <td>
+<label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" placeholder="Any special requests."></textarea>
+    <br>
+    </td>
+    </tr>
+    
+    <tr><td>
+  <label>
+        <input type="checkbox" name="terms" required>
+        I agree to the terms and conditions</a>
+    </label><br>
+    </td></tr>
+  
+
+
+   <center> <tr><td>
+    <button type="submit" >Submit</button>
+   </center>
+    
+    </td></tr>
+    </table>
+</center>
+</form>
+</body>
+</html>
